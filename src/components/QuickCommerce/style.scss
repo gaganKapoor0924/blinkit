@@ -1,0 +1,17 @@
+.quick_commerce {
+    width: 100%;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+
+    .quick_sales_body {
+        background:#FAFAFA;
+        padding:23px;
+        border-top: 1px solid #F1F1F1;
+        .quick_summary {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            width: 100%;
+        }
+    }
+}

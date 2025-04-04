@@ -1,0 +1,61 @@
+.sales_section{
+    background: #fff;
+    border-radius: 8px;
+    border:1px solid #F1F1F1;
+    padding:12px;
+    .sales_header{
+        display: flex;
+        justify-content: space-between;
+        padding:12px 0;
+        border-bottom:1px solid #F1F1F1;
+        margin-bottom: 12px;
+        .sales_title{
+            font-size: 14px;
+            color:#515153;
+            font-weight: 600;
+        }
+    }
+    .sales_mid{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        .current_title{
+            font-size: 24px;
+            color:#031B15;
+            font-weight: 700;
+        }
+        .current_text{
+            font-size: 13px;
+            font-weight: 400;
+            color: #031B1599;
+
+            span{
+                display: block;
+                color:#1D874F;
+            }
+        }
+    }
+    .cities_list{
+        .city_data{display: flex;
+            gap:20px;
+            h2{
+                color:#7D7D7E;
+                font-size: 13px;
+                display: flex;
+                align-items: center;
+                gap:5px;
+                margin-bottom: 14px;
+                span{
+                    width:5px;
+                    height: 5px;
+                    display: inline-block;
+                    border-radius: 10px;
+                }
+            }
+            h3{
+                font-size: 13px;
+                font-weight: 700;
+            }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.sidebar_section{
+    display: flex;
+    .other_brands{
+        padding: 5px 0;
+        width:50px;
+        .top_logos{
+            .boat_logo{
+                border-radius:12px;
+            }
+        }
+    }
+    .sidebar_main{
+        width:237px;
+        height: 85vh;
+        background: #F8F8F8;
+        padding:26px 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .top_sidebar{
+            .top_list{
+                li{
+                    display: flex;
+                    align-items: center;
+                    gap:12px;
+                    padding:8px 12px;
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    color:#031B15;
+                    font-weight: 500;
+                    &.other_links{
+                    flex-direction: column;
+                    .link{
+                        display: flex;
+                        align-items: center;
+                        width:100%;
+                        justify-content: space-between;
+                        .content{
+                            display: flex;
+                            align-items: center;
+                            gap:8px;
+                        }
+                    }
+                
+                }
+                .rotate{
+                    transform: rotate(180deg);
+                    transition: all 1s;
+                }
+                &.active{
+                    background: #DFEAE8;
+                    border-radius: 10px;
+                    a{
+                        text-decoration: none;
+                        color:#027056;
+                    }
+                }
+                }
+            }
+        }
+        .bottom_sidebar{
+            .top_list{
+                li{
+                    display: flex;
+                    align-items: center;
+                    gap:12px;
+                    padding:8px 12px;
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    color:#031B15;
+                    font-weight: 500;
+                   
+               
+                }
+            }
+        }
+    }
+}

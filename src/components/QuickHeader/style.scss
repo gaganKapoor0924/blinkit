@@ -1,0 +1,30 @@
+.quick_header{
+    padding:12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .date_section{
+        background:transparent;
+        border:1px solid #EBEBEB;
+        border-radius: 10px;
+        width:270px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:0 10px;
+        .react-datepicker-wrapper{
+            .react-datepicker__input-container{
+                input{
+                    border:none;
+                    width:90px;
+                    font-size: 14px;
+                    color:#031B15;
+                    padding:10px 0;
+                    &:focus{
+                        outline:none;
+                    }
+                }
+            }
+        }
+    }
+}

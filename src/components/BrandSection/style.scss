@@ -1,0 +1,23 @@
+.brand_section{
+    display: flex;
+    align-items: center;
+    gap:16px;
+    padding:20px 5px;
+    width:100%;
+    .brand_text{
+        border: 1px solid #0000001F;
+        background: #FDFDFD;
+        padding:6px;
+        border-radius: 12px; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:180px;
+      
+       .brand_main{
+        display: flex;
+        align-items: center;
+        gap:8px;
+       }
+    }
+}
