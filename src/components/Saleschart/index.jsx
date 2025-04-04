@@ -78,7 +78,7 @@ const SalesChart = ({ startDate, endDate }) => {
                 </p>
             </div>
 
-            {/* Line Chart */}
+         
             <ResponsiveContainer width="100%" height={300}>
                 <LineChart data={chartData}>
                     <XAxis dataKey="date" />
