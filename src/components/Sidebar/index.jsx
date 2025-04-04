@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import plus from '../../assets/brandSection/plus.png';
 import creative from '../../assets/brandSection/creative.png';
 import help from '../../assets/brandSection/help.svg';
-import Settings from '../../assets/brandSection/Settings.svg';
+import Settings from '../../assets/brandSection/settings.svg';
 import './style.scss';
 
 const Sidebar = () => {
